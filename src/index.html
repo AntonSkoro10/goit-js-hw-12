@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Search Images</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <section class="section-search">
+    <div class="container">
+      <form class="search-form" name="formSearchImage">
+        <div class="group-input">
+          <input type="text" class="control-form" name="keyboardSearch" placeholder="Search image...">
+          <button class="btn-start btn-success" type="submit">
+            Start
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <section class="gallery">
+    <div class="container">
+      <ul class="gallery-list"></ul>
+    </div>
+    <div class="loader js-loader is-hidden"></div>
+    <button class="btn-loader-js btn-start btn-success is-hidden">Load more</button>
+  </section>
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
